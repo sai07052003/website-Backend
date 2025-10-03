@@ -22,7 +22,7 @@ const pool = mysql.createPool({
 
 app.use(
   cors({
-    origin: "https://techlynxcoachingwebsite.netlify.app",
+    origin: "https://intern-project2.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
